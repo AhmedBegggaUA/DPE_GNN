@@ -1,0 +1,2960 @@
+TRAINING STARTED...
+Trial 1/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.49, Validation acc: 0.51 (new best validation), Test acc: 0.555
+Epoch 2, Train acc: 0.51, Validation acc: 0.49, Test acc: 0.445
+Epoch 3, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 4, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 5, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 6, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 7, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 8, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 9, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 10, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 11, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 12, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 13, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 14, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 15, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 16, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 17, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 18, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 19, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 20, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 21, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 22, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 23, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 24, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 25, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 26, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 27, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 28, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 29, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 30, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 31, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 32, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 33, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 34, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 35, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 36, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 37, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 38, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 39, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 40, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 41, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 42, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 43, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 44, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 45, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 46, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 47, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 48, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 49, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 50, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 51, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 52, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 53, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 54, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 55, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 56, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 57, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 58, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 59, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 60, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 61, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 62, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 63, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 64, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 65, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 66, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 67, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 68, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 69, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 70, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 71, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 72, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 73, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 74, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 75, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 76, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 77, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 78, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 79, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 80, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 81, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 82, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 83, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 84, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 85, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 86, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 87, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 88, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 89, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 90, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 91, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 92, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 93, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 94, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 95, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 96, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 97, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 98, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 99, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 100, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 101, Train acc: 0.49, Validation acc: 0.51, Test acc: 0.555
+Epoch 102, Train acc: 0.51, Validation acc: 0.49, Test acc: 0.445
+100 epochs without improvement, stopping training
+Best train acc: 0.491875, Best validation acc: 0.51, Best test acc: 0.555
+Trial 2/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.51 (new best validation), Test acc: 0.465
+Epoch 2, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 3, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 4, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 5, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 6, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 7, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 8, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 9, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 10, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 11, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 12, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 13, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 14, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 15, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 16, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 17, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 18, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 19, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 20, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 21, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 22, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.465
+Epoch 23, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 24, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 25, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 26, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 27, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 28, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 29, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 30, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 31, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 32, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 33, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 34, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 35, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 36, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 37, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 38, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 39, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 40, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 41, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 42, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 43, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 44, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 45, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 46, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 47, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 48, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 49, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 50, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 51, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 52, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 53, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 54, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 55, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 56, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 57, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 58, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 59, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 60, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 61, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 62, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 63, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 64, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 65, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 66, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 67, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 68, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 69, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 70, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 71, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 72, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 73, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 74, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 75, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 76, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 77, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 78, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 79, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 80, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 81, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 82, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 83, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 84, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 85, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 86, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 87, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 88, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 89, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 90, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 91, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 92, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 93, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 94, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 95, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 96, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 97, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 98, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 99, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 100, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 101, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+Epoch 102, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.535
+100 epochs without improvement, stopping training
+Best train acc: 0.503125, Best validation acc: 0.51, Best test acc: 0.465
+Trial 3/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.48 (new best validation), Test acc: 0.505
+Epoch 2, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 3, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 4, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 5, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 6, Train acc: 0.5, Validation acc: 0.52 (new best validation), Test acc: 0.495
+Epoch 7, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 8, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 9, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 10, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 11, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 12, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 13, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 14, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 15, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 16, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 17, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 18, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 19, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 20, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 21, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 22, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 23, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 24, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 25, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 26, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 27, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 28, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 29, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 30, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 31, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 32, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 33, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 34, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 35, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 36, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 37, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 38, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 39, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 40, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 41, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 42, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 43, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 44, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 45, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 46, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 47, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 48, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 49, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 50, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 51, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 52, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 53, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 54, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 55, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 56, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 57, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 58, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 59, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 60, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 61, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 62, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 63, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 64, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 65, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 66, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 67, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 68, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 69, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 70, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 71, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 72, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 73, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 74, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 75, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 76, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 77, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 78, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 79, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 80, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 81, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 82, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 83, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 84, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 85, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 86, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 87, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 88, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 89, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 90, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 91, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 92, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 93, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 94, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 95, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 96, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 97, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 98, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 99, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 100, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 101, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 102, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 103, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 104, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+Epoch 105, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 106, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.495
+Epoch 107, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.505
+100 epochs without improvement, stopping training
+Best train acc: 0.498125, Best validation acc: 0.52, Best test acc: 0.505
+Trial 4/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.52 (new best validation), Test acc: 0.5
+Epoch 2, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 3, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 4, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.5
+Epoch 5, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 6, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 7, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 8, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 9, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 10, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 11, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 12, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 13, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 14, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 15, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 16, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 17, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 18, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 19, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 20, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 21, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 22, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 23, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 24, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 25, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 26, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 27, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 28, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 29, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 30, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 31, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 32, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 33, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 34, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 35, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 36, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 37, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 38, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 39, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 40, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 41, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 42, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 43, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 44, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 45, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 46, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 47, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 48, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 49, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 50, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 51, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 52, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 53, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 54, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 55, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 56, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 57, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 58, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 59, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 60, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 61, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 62, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 63, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 64, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 65, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 66, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 67, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 68, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 69, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 70, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 71, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 72, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 73, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 74, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 75, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 76, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 77, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 78, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 79, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 80, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 81, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 82, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 83, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 84, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 85, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 86, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 87, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 88, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 89, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 90, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 91, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 92, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 93, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 94, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 95, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 96, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 97, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 98, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 99, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 100, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 101, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 102, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+100 epochs without improvement, stopping training
+Best train acc: 0.498125, Best validation acc: 0.515, Best test acc: 0.5
+Trial 5/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.53 (new best validation), Test acc: 0.51
+Epoch 2, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.49
+Epoch 3, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.47
+Epoch 4, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.49
+Epoch 5, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 6, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 7, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 8, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.49
+Epoch 9, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 10, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.49
+Epoch 11, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 12, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 13, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 14, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 15, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 16, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.51
+Epoch 17, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 18, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 19, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 20, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 21, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 22, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 23, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 24, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 25, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 26, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 27, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 28, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 29, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 30, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 31, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 32, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 33, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 34, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 35, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 36, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 37, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 38, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 39, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 40, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 41, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 42, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 43, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 44, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 45, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 46, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 47, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 48, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 49, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 50, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 51, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 52, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 53, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 54, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 55, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.49
+Epoch 56, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 57, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 58, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 59, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 60, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 61, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 62, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 63, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 64, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 65, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 66, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 67, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 68, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 69, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 70, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 71, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 72, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 73, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 74, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 75, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 76, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 77, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 78, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 79, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 80, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 81, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 82, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 83, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 84, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 85, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 86, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 87, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 88, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 89, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 90, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 91, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 92, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 93, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 94, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 95, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 96, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 97, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 98, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 99, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 100, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 101, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+Epoch 102, Train acc: 0.5, Validation acc: 0.53, Test acc: 0.51
+100 epochs without improvement, stopping training
+Best train acc: 0.495625, Best validation acc: 0.525, Best test acc: 0.51
+Trial 6/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.54 (new best validation), Test acc: 0.48
+Epoch 2, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 3, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 4, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.48
+Epoch 5, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.48
+Epoch 6, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.48
+Epoch 7, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.48
+Epoch 8, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 9, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.48
+Epoch 10, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 11, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 12, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 13, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 14, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 15, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 16, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 17, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 18, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 19, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.48
+Epoch 20, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 21, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 22, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 23, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 24, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 25, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 26, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 27, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 28, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 29, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 30, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 31, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 32, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 33, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 34, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 35, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 36, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 37, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 38, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 39, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 40, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 41, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 42, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 43, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 44, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 45, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 46, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 47, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 48, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 49, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 50, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 51, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 52, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 53, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 54, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 55, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 56, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 57, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 58, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 59, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 60, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 61, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 62, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 63, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 64, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 65, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 66, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 67, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 68, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 69, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 70, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 71, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 72, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 73, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 74, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 75, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 76, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 77, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 78, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 79, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 80, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 81, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 82, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 83, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 84, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 85, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 86, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 87, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 88, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 89, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 90, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 91, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 92, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 93, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 94, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 95, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.52
+Epoch 96, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.48
+Epoch 97, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.48
+Epoch 98, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.48
+Epoch 99, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.48
+Epoch 100, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.48
+Epoch 101, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.48
+Epoch 102, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.48
+100 epochs without improvement, stopping training
+Best train acc: 0.498125, Best validation acc: 0.535, Best test acc: 0.48
+Trial 7/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.49, Validation acc: 0.57 (new best validation), Test acc: 0.505
+Epoch 2, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.495
+Epoch 3, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.495
+Epoch 4, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 5, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 6, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 7, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 8, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 9, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 10, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 11, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 12, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 13, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 14, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 15, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 16, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 17, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 18, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 19, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 20, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 21, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 22, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 23, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 24, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 25, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 26, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 27, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 28, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 29, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 30, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 31, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 32, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 33, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 34, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 35, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 36, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 37, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 38, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 39, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 40, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 41, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 42, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 43, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 44, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 45, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 46, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 47, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 48, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 49, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 50, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 51, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 52, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 53, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 54, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 55, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 56, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 57, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 58, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 59, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 60, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 61, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 62, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 63, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 64, Train acc: 0.51, Validation acc: 0.43, Test acc: 0.495
+Epoch 65, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 66, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 67, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 68, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 69, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 70, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 71, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 72, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 73, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 74, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 75, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 76, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 77, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 78, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 79, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 80, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 81, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 82, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 83, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 84, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 85, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 86, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 87, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 88, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 89, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 90, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 91, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 92, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 93, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 94, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 95, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 96, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 97, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 98, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 99, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 100, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 101, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+Epoch 102, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.505
+100 epochs without improvement, stopping training
+Best train acc: 0.490625, Best validation acc: 0.57, Best test acc: 0.505
+Trial 8/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.49, Validation acc: 0.55 (new best validation), Test acc: 0.495
+Epoch 2, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 3, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.495
+Epoch 4, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 5, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.5
+Epoch 6, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 7, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 8, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 9, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 10, Train acc: 0.5, Validation acc: 0.46, Test acc: 0.5
+Epoch 11, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 12, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 13, Train acc: 0.5, Validation acc: 0.46, Test acc: 0.5
+Epoch 14, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 15, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 16, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 17, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 18, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 19, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 20, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 21, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 22, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 23, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 24, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 25, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 26, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 27, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 28, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 29, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 30, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 31, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 32, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 33, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 34, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 35, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 36, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 37, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 38, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 39, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 40, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 41, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 42, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 43, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 44, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 45, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 46, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 47, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 48, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 49, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 50, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 51, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 52, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 53, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 54, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 55, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 56, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 57, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 58, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 59, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 60, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 61, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 62, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 63, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 64, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 65, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 66, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 67, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 68, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 69, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 70, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 71, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 72, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 73, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 74, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 75, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 76, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 77, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 78, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 79, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 80, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 81, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 82, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 83, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 84, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 85, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 86, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 87, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 88, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 89, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 90, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 91, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 92, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 93, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 94, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 95, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 96, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 97, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 98, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 99, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 100, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 101, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+Epoch 102, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.5
+100 epochs without improvement, stopping training
+Best train acc: 0.495, Best validation acc: 0.55, Best test acc: 0.5
+Trial 9/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.46 (new best validation), Test acc: 0.525
+Epoch 2, Train acc: 0.5, Validation acc: 0.46, Test acc: 0.525
+Epoch 3, Train acc: 0.5, Validation acc: 0.46, Test acc: 0.525
+Epoch 4, Train acc: 0.5, Validation acc: 0.54 (new best validation), Test acc: 0.47
+Epoch 5, Train acc: 0.5, Validation acc: 0.46, Test acc: 0.525
+Epoch 6, Train acc: 0.5, Validation acc: 0.46, Test acc: 0.525
+Epoch 7, Train acc: 0.5, Validation acc: 0.46, Test acc: 0.525
+Epoch 8, Train acc: 0.5, Validation acc: 0.46, Test acc: 0.525
+Epoch 9, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 10, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 11, Train acc: 0.5, Validation acc: 0.46, Test acc: 0.525
+Epoch 12, Train acc: 0.5, Validation acc: 0.46, Test acc: 0.525
+Epoch 13, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.47
+Epoch 14, Train acc: 0.5, Validation acc: 0.46, Test acc: 0.525
+Epoch 15, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 16, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 17, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 18, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 19, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 20, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 21, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 22, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 23, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 24, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 25, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 26, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 27, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 28, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 29, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 30, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 31, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 32, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 33, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 34, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 35, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 36, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 37, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 38, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 39, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 40, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 41, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 42, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 43, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 44, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 45, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 46, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 47, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 48, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 49, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 50, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 51, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 52, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 53, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 54, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 55, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 56, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 57, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 58, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 59, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 60, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 61, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 62, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 63, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 64, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 65, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 66, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 67, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 68, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 69, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 70, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 71, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 72, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 73, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 74, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 75, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 76, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 77, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 78, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 79, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 80, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 81, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 82, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 83, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 84, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 85, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 86, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 87, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 88, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 89, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 90, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 91, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 92, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 93, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 94, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 95, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 96, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 97, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 98, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 99, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 100, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 101, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 102, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 103, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 104, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+Epoch 105, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.475
+100 epochs without improvement, stopping training
+Best train acc: 0.4975, Best validation acc: 0.545, Best test acc: 0.525
+Trial 10/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.5 (new best validation), Test acc: 0.495
+Epoch 2, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.495
+Epoch 3, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.495
+Epoch 4, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.495
+Epoch 5, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.495
+Epoch 6, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.495
+Epoch 7, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 8, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.505
+Epoch 9, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.495
+Epoch 10, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 11, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 12, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.495
+Epoch 13, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 14, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 15, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 16, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 17, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.495
+Epoch 18, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 19, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 20, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.495
+Epoch 21, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 22, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 23, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 24, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 25, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 26, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 27, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 28, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 29, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 30, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 31, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 32, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 33, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 34, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 35, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 36, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 37, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 38, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 39, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 40, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 41, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 42, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 43, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 44, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 45, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 46, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 47, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 48, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 49, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 50, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 51, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 52, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 53, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 54, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 55, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 56, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 57, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 58, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 59, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 60, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 61, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 62, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 63, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 64, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 65, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 66, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 67, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 68, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 69, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 70, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 71, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 72, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 73, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 74, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 75, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 76, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 77, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 78, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 79, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 80, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 81, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 82, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 83, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 84, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 85, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 86, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 87, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 88, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 89, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 90, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 91, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 92, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 93, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 94, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 95, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 96, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 97, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 98, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 99, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 100, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 101, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+Epoch 102, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.505
+100 epochs without improvement, stopping training
+Best train acc: 0.499375, Best validation acc: 0.5, Best test acc: 0.505
+Trial 11/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.45 (new best validation), Test acc: 0.52
+Epoch 2, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 3, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.515
+Epoch 4, Train acc: 0.5, Validation acc: 0.55 (new best validation), Test acc: 0.48
+Epoch 5, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 6, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 7, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 8, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.515
+Epoch 9, Train acc: 0.51, Validation acc: 0.45, Test acc: 0.515
+Epoch 10, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 11, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 12, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 13, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 14, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 15, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 16, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 17, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 18, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 19, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 20, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 21, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 22, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 23, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 24, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 25, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 26, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 27, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 28, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 29, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 30, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 31, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 32, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 33, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 34, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 35, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 36, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 37, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 38, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 39, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 40, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 41, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 42, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 43, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 44, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 45, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 46, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 47, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 48, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 49, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 50, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 51, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 52, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 53, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 54, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 55, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 56, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 57, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 58, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 59, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 60, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 61, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 62, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 63, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 64, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 65, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 66, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 67, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 68, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 69, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 70, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 71, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 72, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 73, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 74, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 75, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 76, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 77, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 78, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 79, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 80, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 81, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 82, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 83, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 84, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 85, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 86, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 87, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 88, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 89, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 90, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 91, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 92, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.52
+Epoch 93, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 94, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 95, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 96, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 97, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 98, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 99, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 100, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 101, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 102, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 103, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 104, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+Epoch 105, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.48
+100 epochs without improvement, stopping training
+Best train acc: 0.49625, Best validation acc: 0.55, Best test acc: 0.52
+Trial 12/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.49, Validation acc: 0.57 (new best validation), Test acc: 0.52
+Epoch 2, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 3, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 4, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 5, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 6, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 7, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 8, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 9, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 10, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 11, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 12, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 13, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 14, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 15, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 16, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 17, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 18, Train acc: 0.5, Validation acc: 0.58, Test acc: 0.52
+Epoch 19, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 20, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 21, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 22, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 23, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 24, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 25, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 26, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 27, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 28, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 29, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 30, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 31, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 32, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 33, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 34, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 35, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 36, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 37, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 38, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 39, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.53
+Epoch 40, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 41, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 42, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 43, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 44, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 45, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 46, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 47, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 48, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 49, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 50, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 51, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 52, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 53, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 54, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 55, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 56, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 57, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 58, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 59, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 60, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 61, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 62, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 63, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 64, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 65, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 66, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 67, Train acc: 0.49, Validation acc: 0.58, Test acc: 0.52
+Epoch 68, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 69, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 70, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 71, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 72, Train acc: 0.51, Validation acc: 0.42, Test acc: 0.48
+Epoch 73, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 74, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 75, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 76, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 77, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 78, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 79, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 80, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 81, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 82, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 83, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 84, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 85, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 86, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 87, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 88, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 89, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 90, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 91, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 92, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 93, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 94, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 95, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 96, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 97, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 98, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 99, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 100, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 101, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+Epoch 102, Train acc: 0.49, Validation acc: 0.57, Test acc: 0.52
+100 epochs without improvement, stopping training
+Best train acc: 0.488125, Best validation acc: 0.58, Best test acc: 0.52
+Trial 13/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.5 (new best validation), Test acc: 0.535
+Epoch 2, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 3, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 4, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.465
+Epoch 5, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.465
+Epoch 6, Train acc: 0.49, Validation acc: 0.5, Test acc: 0.53
+Epoch 7, Train acc: 0.49, Validation acc: 0.5, Test acc: 0.53
+Epoch 8, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.465
+Epoch 9, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.465
+Epoch 10, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.465
+Epoch 11, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.465
+Epoch 12, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.465
+Epoch 13, Train acc: 0.49, Validation acc: 0.5, Test acc: 0.53
+Epoch 14, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.465
+Epoch 15, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.465
+Epoch 16, Train acc: 0.49, Validation acc: 0.5, Test acc: 0.53
+Epoch 17, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.465
+Epoch 18, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.465
+Epoch 19, Train acc: 0.49, Validation acc: 0.5, Test acc: 0.53
+Epoch 20, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 21, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 22, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 23, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 24, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 25, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 26, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 27, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 28, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 29, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 30, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 31, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 32, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 33, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 34, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 35, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 36, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 37, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 38, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 39, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 40, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 41, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 42, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 43, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 44, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 45, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 46, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 47, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 48, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 49, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 50, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 51, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 52, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 53, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 54, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 55, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 56, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 57, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 58, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 59, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 60, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 61, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 62, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 63, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 64, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 65, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 66, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 67, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 68, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 69, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 70, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 71, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 72, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 73, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 74, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 75, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 76, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 77, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 78, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 79, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 80, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 81, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 82, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 83, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 84, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 85, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 86, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 87, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 88, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 89, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 90, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 91, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 92, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 93, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 94, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 95, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 96, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 97, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 98, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 99, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 100, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 101, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+Epoch 102, Train acc: 0.5, Validation acc: 0.5, Test acc: 0.535
+100 epochs without improvement, stopping training
+Best train acc: 0.495625, Best validation acc: 0.5, Best test acc: 0.535
+Trial 14/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.49 (new best validation), Test acc: 0.515
+Epoch 2, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 3, Train acc: 0.5, Validation acc: 0.51 (new best validation), Test acc: 0.485
+Epoch 4, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 5, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.485
+Epoch 6, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.48
+Epoch 7, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.48
+Epoch 8, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.48
+Epoch 9, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.48
+Epoch 10, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 11, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.48
+Epoch 12, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.48
+Epoch 13, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 14, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.48
+Epoch 15, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.485
+Epoch 16, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 17, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 18, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 19, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 20, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 21, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 22, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 23, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 24, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 25, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 26, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 27, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 28, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 29, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 30, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 31, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 32, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 33, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 34, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 35, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 36, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 37, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 38, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 39, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 40, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 41, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 42, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 43, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 44, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 45, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 46, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 47, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 48, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 49, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 50, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 51, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 52, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 53, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 54, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 55, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 56, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 57, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 58, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 59, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 60, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 61, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 62, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 63, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 64, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 65, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 66, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 67, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 68, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 69, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 70, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 71, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 72, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 73, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 74, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 75, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 76, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 77, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 78, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 79, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 80, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 81, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 82, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 83, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 84, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 85, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 86, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 87, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 88, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 89, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 90, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 91, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 92, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 93, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 94, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 95, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 96, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 97, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 98, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 99, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 100, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 101, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 102, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 103, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+Epoch 104, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.515
+100 epochs without improvement, stopping training
+Best train acc: 0.50125, Best validation acc: 0.505, Best test acc: 0.515
+Trial 15/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.49 (new best validation), Test acc: 0.48
+Epoch 2, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.48
+Epoch 3, Train acc: 0.51, Validation acc: 0.5 (new best validation), Test acc: 0.48
+Epoch 4, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.48
+Epoch 5, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.48
+Epoch 6, Train acc: 0.5, Validation acc: 0.51 (new best validation), Test acc: 0.52
+Epoch 7, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.48
+Epoch 8, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 9, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.48
+Epoch 10, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 11, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.48
+Epoch 12, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 13, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.48
+Epoch 14, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 15, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 16, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 17, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 18, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 19, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 20, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 21, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 22, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 23, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 24, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 25, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 26, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 27, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 28, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 29, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 30, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 31, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 32, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 33, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 34, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 35, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 36, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 37, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 38, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 39, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 40, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 41, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 42, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 43, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 44, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 45, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 46, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 47, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 48, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 49, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 50, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 51, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 52, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 53, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 54, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 55, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 56, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 57, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 58, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 59, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 60, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 61, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 62, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 63, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 64, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 65, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 66, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 67, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 68, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 69, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 70, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 71, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 72, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 73, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 74, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 75, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 76, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 77, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 78, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 79, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 80, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 81, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 82, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 83, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 84, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 85, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 86, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 87, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 88, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 89, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 90, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 91, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 92, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 93, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 94, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 95, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 96, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 97, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 98, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 99, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 100, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 101, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 102, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 103, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 104, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 105, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 106, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+Epoch 107, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.52
+100 epochs without improvement, stopping training
+Best train acc: 0.496875, Best validation acc: 0.505, Best test acc: 0.52
+Trial 16/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.48 (new best validation), Test acc: 0.485
+Epoch 2, Train acc: 0.49, Validation acc: 0.52 (new best validation), Test acc: 0.52
+Epoch 3, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 4, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 5, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 6, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 7, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 8, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 9, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 10, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 11, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 12, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 13, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 14, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 15, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 16, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 17, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 18, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 19, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 20, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 21, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 22, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 23, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 24, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 25, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 26, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 27, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 28, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 29, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 30, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 31, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 32, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 33, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 34, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 35, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 36, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 37, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 38, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.515
+Epoch 39, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 40, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 41, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 42, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 43, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 44, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 45, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 46, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 47, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 48, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 49, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 50, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 51, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 52, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 53, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 54, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 55, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 56, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 57, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 58, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 59, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 60, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 61, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 62, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 63, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 64, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 65, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 66, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 67, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 68, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 69, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 70, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 71, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 72, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 73, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 74, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 75, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 76, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 77, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 78, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 79, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 80, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 81, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 82, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 83, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 84, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 85, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 86, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 87, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 88, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 89, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 90, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 91, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.485
+Epoch 92, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.515
+Epoch 93, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.515
+Epoch 94, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.515
+Epoch 95, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.515
+Epoch 96, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.515
+Epoch 97, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.515
+Epoch 98, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.515
+Epoch 99, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.515
+Epoch 100, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.515
+Epoch 101, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.515
+Epoch 102, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.515
+Epoch 103, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.515
+100 epochs without improvement, stopping training
+Best train acc: 0.495625, Best validation acc: 0.52, Best test acc: 0.52
+Trial 17/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.54 (new best validation), Test acc: 0.49
+Epoch 2, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 3, Train acc: 0.5, Validation acc: 0.54, Test acc: 0.49
+Epoch 4, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 5, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 6, Train acc: 0.5, Validation acc: 0.46, Test acc: 0.505
+Epoch 7, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 8, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 9, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 10, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 11, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 12, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 13, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 14, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 15, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 16, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 17, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 18, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 19, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 20, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 21, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 22, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 23, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 24, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 25, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 26, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 27, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 28, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 29, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 30, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 31, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 32, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 33, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 34, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 35, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 36, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 37, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 38, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 39, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 40, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 41, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 42, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 43, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 44, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 45, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 46, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 47, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 48, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 49, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 50, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 51, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 52, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 53, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 54, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 55, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 56, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 57, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 58, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 59, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 60, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 61, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 62, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 63, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 64, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 65, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 66, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 67, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 68, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 69, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 70, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 71, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 72, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 73, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 74, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 75, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 76, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 77, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 78, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 79, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 80, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 81, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 82, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 83, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 84, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 85, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 86, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 87, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 88, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 89, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 90, Train acc: 0.41, Validation acc: 0.41, Test acc: 0.41
+Epoch 91, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 92, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 93, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 94, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 95, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 96, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 97, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 98, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 99, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 100, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 101, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+Epoch 102, Train acc: 0.5, Validation acc: 0.47, Test acc: 0.51
+100 epochs without improvement, stopping training
+Best train acc: 0.496875, Best validation acc: 0.535, Best test acc: 0.49
+Trial 18/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.49, Validation acc: 0.53 (new best validation), Test acc: 0.555
+Epoch 2, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 3, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 4, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.555
+Epoch 5, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.555
+Epoch 6, Train acc: 0.51, Validation acc: 0.47, Test acc: 0.445
+Epoch 7, Train acc: 0.51, Validation acc: 0.47, Test acc: 0.445
+Epoch 8, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.56
+Epoch 9, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 10, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 11, Train acc: 0.51, Validation acc: 0.47, Test acc: 0.445
+Epoch 12, Train acc: 0.51, Validation acc: 0.47, Test acc: 0.445
+Epoch 13, Train acc: 0.51, Validation acc: 0.47, Test acc: 0.445
+Epoch 14, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 15, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 16, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 17, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 18, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 19, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 20, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 21, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 22, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 23, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 24, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 25, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 26, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 27, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 28, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 29, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 30, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 31, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 32, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 33, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 34, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 35, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 36, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 37, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 38, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 39, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 40, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 41, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 42, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 43, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 44, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 45, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 46, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 47, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 48, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 49, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 50, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 51, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 52, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 53, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 54, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 55, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 56, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 57, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 58, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 59, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 60, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 61, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 62, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 63, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 64, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 65, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 66, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 67, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 68, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 69, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 70, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 71, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 72, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 73, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 74, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 75, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 76, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 77, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 78, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 79, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 80, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 81, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 82, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 83, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 84, Train acc: 0.51, Validation acc: 0.47, Test acc: 0.445
+Epoch 85, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 86, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 87, Train acc: 0.51, Validation acc: 0.47, Test acc: 0.445
+Epoch 88, Train acc: 0.51, Validation acc: 0.47, Test acc: 0.445
+Epoch 89, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 90, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 91, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 92, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 93, Train acc: 0.51, Validation acc: 0.47, Test acc: 0.445
+Epoch 94, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 95, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 96, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 97, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 98, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 99, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+Epoch 100, Train acc: 0.51, Validation acc: 0.47, Test acc: 0.445
+Epoch 101, Train acc: 0.51, Validation acc: 0.47, Test acc: 0.445
+Epoch 102, Train acc: 0.49, Validation acc: 0.53, Test acc: 0.555
+100 epochs without improvement, stopping training
+Best train acc: 0.49, Best validation acc: 0.525, Best test acc: 0.555
+Trial 19/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.49, Validation acc: 0.55 (new best validation), Test acc: 0.5
+Epoch 2, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 3, Train acc: 0.51, Validation acc: 0.45, Test acc: 0.5
+Epoch 4, Train acc: 0.51, Validation acc: 0.45, Test acc: 0.5
+Epoch 5, Train acc: 0.5, Validation acc: 0.46, Test acc: 0.495
+Epoch 6, Train acc: 0.51, Validation acc: 0.45, Test acc: 0.5
+Epoch 7, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 8, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 9, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 10, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 11, Train acc: 0.51, Validation acc: 0.45, Test acc: 0.5
+Epoch 12, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 13, Train acc: 0.51, Validation acc: 0.45, Test acc: 0.5
+Epoch 14, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 15, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 16, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 17, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 18, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 19, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 20, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 21, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 22, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 23, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 24, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 25, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 26, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 27, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 28, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 29, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 30, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 31, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 32, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 33, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 34, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 35, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 36, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 37, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 38, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 39, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 40, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 41, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 42, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 43, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 44, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 45, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 46, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 47, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 48, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 49, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 50, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 51, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 52, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 53, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 54, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 55, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 56, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 57, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 58, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 59, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 60, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 61, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 62, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 63, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 64, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 65, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 66, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 67, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 68, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 69, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 70, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 71, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 72, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 73, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 74, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 75, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 76, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 77, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 78, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 79, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 80, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 81, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 82, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 83, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 84, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 85, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 86, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 87, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 88, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 89, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 90, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 91, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 92, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 93, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 94, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 95, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 96, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 97, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 98, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 99, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 100, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.5
+Epoch 101, Train acc: 0.51, Validation acc: 0.45, Test acc: 0.5
+Epoch 102, Train acc: 0.51, Validation acc: 0.45, Test acc: 0.5
+100 epochs without improvement, stopping training
+Best train acc: 0.49375, Best validation acc: 0.55, Best test acc: 0.5
+Trial 20/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.55 (new best validation), Test acc: 0.465
+Epoch 2, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 3, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 4, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.535
+Epoch 5, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.535
+Epoch 6, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.535
+Epoch 7, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.535
+Epoch 8, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.54
+Epoch 9, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 10, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 11, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 12, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 13, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 14, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 15, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 16, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 17, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 18, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 19, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 20, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 21, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 22, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 23, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 24, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 25, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 26, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 27, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 28, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 29, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 30, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 31, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 32, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 33, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 34, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 35, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 36, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 37, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 38, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 39, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 40, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 41, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 42, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 43, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 44, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 45, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 46, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 47, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 48, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 49, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 50, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 51, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 52, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 53, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 54, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 55, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 56, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 57, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 58, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 59, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 60, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 61, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 62, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 63, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 64, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 65, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 66, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 67, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 68, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 69, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 70, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 71, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 72, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 73, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 74, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 75, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 76, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 77, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 78, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 79, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 80, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 81, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 82, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 83, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 84, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 85, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 86, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 87, Train acc: 0.5, Validation acc: 0.45, Test acc: 0.535
+Epoch 88, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 89, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 90, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 91, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 92, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 93, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 94, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 95, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 96, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 97, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 98, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 99, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 100, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 101, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+Epoch 102, Train acc: 0.5, Validation acc: 0.55, Test acc: 0.465
+100 epochs without improvement, stopping training
+Best train acc: 0.498125, Best validation acc: 0.55, Best test acc: 0.465
+Trial 21/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.49, Validation acc: 0.55 (new best validation), Test acc: 0.495
+Epoch 2, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.495
+Epoch 3, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.495
+Epoch 4, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.495
+Epoch 5, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.48
+Epoch 6, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.495
+Epoch 7, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.495
+Epoch 8, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.495
+Epoch 9, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.495
+Epoch 10, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 11, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.495
+Epoch 12, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.495
+Epoch 13, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 14, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 15, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 16, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.495
+Epoch 17, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 18, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 19, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 20, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 21, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 22, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 23, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 24, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 25, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 26, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 27, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 28, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 29, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 30, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 31, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 32, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 33, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 34, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 35, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 36, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 37, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 38, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 39, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 40, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 41, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 42, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 43, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 44, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 45, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 46, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 47, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 48, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 49, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 50, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 51, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 52, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 53, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 54, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 55, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 56, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 57, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.495
+Epoch 58, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 59, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 60, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 61, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 62, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 63, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 64, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 65, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 66, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 67, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 68, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 69, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 70, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 71, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 72, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 73, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 74, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 75, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 76, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 77, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 78, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 79, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 80, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 81, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 82, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 83, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 84, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 85, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 86, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 87, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 88, Train acc: 0.49, Validation acc: 0.55, Test acc: 0.495
+Epoch 89, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 90, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 91, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 92, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 93, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 94, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 95, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 96, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 97, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 98, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 99, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 100, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 101, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+Epoch 102, Train acc: 0.51, Validation acc: 0.46, Test acc: 0.505
+100 epochs without improvement, stopping training
+Best train acc: 0.495, Best validation acc: 0.55, Best test acc: 0.495
+Trial 22/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.49 (new best validation), Test acc: 0.52
+Epoch 2, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 3, Train acc: 0.5, Validation acc: 0.51 (new best validation), Test acc: 0.48
+Epoch 4, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 5, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 6, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 7, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 8, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 9, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 10, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 11, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 12, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.515
+Epoch 13, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 14, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 15, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 16, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 17, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 18, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 19, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 20, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.515
+Epoch 21, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 22, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 23, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 24, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 25, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 26, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 27, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 28, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 29, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 30, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 31, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 32, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 33, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 34, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 35, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 36, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 37, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 38, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 39, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 40, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 41, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 42, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 43, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 44, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 45, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 46, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 47, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 48, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 49, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 50, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 51, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 52, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 53, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 54, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 55, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 56, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 57, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 58, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 59, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 60, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 61, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.48
+Epoch 62, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 63, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 64, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 65, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 66, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 67, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 68, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 69, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 70, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 71, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 72, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 73, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 74, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 75, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 76, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 77, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 78, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 79, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 80, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 81, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 82, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 83, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 84, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 85, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 86, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 87, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 88, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 89, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 90, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 91, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 92, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 93, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 94, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 95, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 96, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 97, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 98, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 99, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 100, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 101, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 102, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 103, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+Epoch 104, Train acc: 0.5, Validation acc: 0.49, Test acc: 0.52
+100 epochs without improvement, stopping training
+Best train acc: 0.501875, Best validation acc: 0.505, Best test acc: 0.52
+Trial 23/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.48 (new best validation), Test acc: 0.535
+Epoch 2, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 3, Train acc: 0.5, Validation acc: 0.52 (new best validation), Test acc: 0.465
+Epoch 4, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 5, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 6, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 7, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 8, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 9, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 10, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 11, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 12, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 13, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 14, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 15, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 16, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 17, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 18, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 19, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 20, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 21, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 22, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 23, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 24, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 25, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 26, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 27, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 28, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 29, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 30, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 31, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 32, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 33, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 34, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 35, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 36, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 37, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 38, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 39, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 40, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 41, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 42, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 43, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 44, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 45, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 46, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 47, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 48, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 49, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 50, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 51, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 52, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 53, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 54, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 55, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 56, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 57, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 58, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 59, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 60, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 61, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 62, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 63, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 64, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 65, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 66, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 67, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 68, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 69, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 70, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 71, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 72, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 73, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 74, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 75, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 76, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 77, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 78, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 79, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 80, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 81, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 82, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 83, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 84, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 85, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 86, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 87, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 88, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 89, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 90, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 91, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 92, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 93, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 94, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 95, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.535
+Epoch 96, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 97, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 98, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 99, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 100, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 101, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 102, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 103, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+Epoch 104, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.465
+100 epochs without improvement, stopping training
+Best train acc: 0.501875, Best validation acc: 0.52, Best test acc: 0.535
+Trial 24/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.49, Validation acc: 0.52 (new best validation), Test acc: 0.535
+Epoch 2, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 3, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 4, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 5, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 6, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 7, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 8, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 9, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 10, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 11, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 12, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 13, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 14, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 15, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 16, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 17, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 18, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 19, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 20, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 21, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 22, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 23, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 24, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 25, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 26, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 27, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 28, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 29, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 30, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 31, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 32, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 33, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 34, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 35, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 36, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 37, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 38, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 39, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 40, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 41, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 42, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 43, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 44, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 45, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 46, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 47, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 48, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 49, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 50, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 51, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 52, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 53, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 54, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 55, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 56, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 57, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 58, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 59, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 60, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 61, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 62, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 63, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 64, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 65, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 66, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 67, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 68, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 69, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 70, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 71, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 72, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 73, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 74, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 75, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 76, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 77, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 78, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 79, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 80, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 81, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 82, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 83, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 84, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 85, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 86, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 87, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 88, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 89, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 90, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 91, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 92, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 93, Train acc: 0.49, Validation acc: 0.52, Test acc: 0.535
+Epoch 94, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 95, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 96, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 97, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 98, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 99, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 100, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 101, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+Epoch 102, Train acc: 0.51, Validation acc: 0.48, Test acc: 0.465
+100 epochs without improvement, stopping training
+Best train acc: 0.49375, Best validation acc: 0.515, Best test acc: 0.535
+Trial 25/25
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=1, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=2)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=3782, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  83667
+Epoch 1, Train acc: 0.5, Validation acc: 0.48 (new best validation), Test acc: 0.5
+Epoch 2, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 3, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 4, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 5, Train acc: 0.5, Validation acc: 0.52 (new best validation), Test acc: 0.5
+Epoch 6, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 7, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 8, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 9, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.5
+Epoch 10, Train acc: 0.5, Validation acc: 0.51, Test acc: 0.5
+Epoch 11, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 12, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 13, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 14, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.495
+Epoch 15, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.495
+Epoch 16, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 17, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.495
+Epoch 18, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 19, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 20, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 21, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 22, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 23, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 24, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 25, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 26, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 27, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 28, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 29, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 30, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 31, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 32, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 33, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 34, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 35, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 36, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 37, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 38, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 39, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 40, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 41, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 42, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 43, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 44, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 45, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 46, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 47, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 48, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 49, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 50, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 51, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 52, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 53, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 54, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 55, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 56, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 57, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 58, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 59, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 60, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 61, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 62, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 63, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 64, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 65, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 66, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 67, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 68, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 69, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 70, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 71, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 72, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 73, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 74, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 75, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 76, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 77, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 78, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 79, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 80, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.495
+Epoch 81, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 82, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 83, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 84, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 85, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 86, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 87, Train acc: 0.5, Validation acc: 0.52, Test acc: 0.5
+Epoch 88, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 89, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 90, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 91, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 92, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 93, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 94, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 95, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 96, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 97, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 98, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 99, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 100, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 101, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 102, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 103, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 104, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 105, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+Epoch 106, Train acc: 0.5, Validation acc: 0.48, Test acc: 0.5
+100 epochs without improvement, stopping training
+Best train acc: 0.498125, Best validation acc: 0.515, Best test acc: 0.5
+RESULTS FOR reddit (GatedGCN), None PE:
+
+average acc: 51.09999999999999
+
+plus/minus:  0.901554213566772
+
+

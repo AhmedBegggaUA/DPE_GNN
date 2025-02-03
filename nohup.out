@@ -1,0 +1,91 @@
+Traceback (most recent call last):
+  File "/home/ahmed/PatternRecognition/run_graph_classification.py", line 130, in <module>
+    train_acc, validation_acc, test_acc = Experiment(args=args, dataset=dataset).run()
+  File "/home/ahmed/PatternRecognition/experiments/graph_classification.py", line 118, in run
+    test_acc = self.eval(loader=test_loader)
+  File "/home/ahmed/PatternRecognition/experiments/graph_classification.py", line 172, in eval
+    out,_ = self.model(graph)
+  File "/home/ahmed/anaconda3/envs/phd/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ahmed/anaconda3/envs/phd/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ahmed/PatternRecognition/models/graph_model.py", line 335, in forward
+    s, pump_loss, ortho_loss = pump_lape(adj, s.unsqueeze(0))
+  File "/home/ahmed/PatternRecognition/models/graph_model.py", line 447, in pump_lape
+    CT_num = _rank3_trace(torch.matmul(torch.matmul(s.transpose(1, 2),L), s)) # Tr(S^T A S) 
+RuntimeError: Expected size for first two dimensions of batch2 tensor to be: [1, 100] but got: [1, 98].
+Traceback (most recent call last):
+  File "/home/ahmed/PatternRecognition/run_graph_classification.py", line 130, in <module>
+    train_acc, validation_acc, test_acc = Experiment(args=args, dataset=dataset).run()
+  File "/home/ahmed/PatternRecognition/experiments/graph_classification.py", line 118, in run
+    test_acc = self.eval(loader=test_loader)
+  File "/home/ahmed/PatternRecognition/experiments/graph_classification.py", line 172, in eval
+    out,_ = self.model(graph)
+  File "/home/ahmed/anaconda3/envs/phd/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ahmed/anaconda3/envs/phd/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ahmed/PatternRecognition/models/graph_model.py", line 303, in forward
+    s, pump_loss, ortho_loss = pump_lape(adj, s.unsqueeze(0))
+  File "/home/ahmed/PatternRecognition/models/graph_model.py", line 447, in pump_lape
+    CT_num = _rank3_trace(torch.matmul(torch.matmul(s.transpose(1, 2),L), s)) # Tr(S^T A S) 
+RuntimeError: Expected size for first two dimensions of batch2 tensor to be: [1, 100] but got: [1, 98].
+Traceback (most recent call last):
+  File "/home/ahmed/PatternRecognition/run_graph_classification.py", line 130, in <module>
+    train_acc, validation_acc, test_acc = Experiment(args=args, dataset=dataset).run()
+  File "/home/ahmed/PatternRecognition/experiments/graph_classification.py", line 106, in run
+    out,extra_loss = self.model(graph)
+  File "/home/ahmed/anaconda3/envs/phd/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ahmed/anaconda3/envs/phd/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ahmed/PatternRecognition/models/graph_model.py", line 335, in forward
+    s, pump_loss, ortho_loss = pump_lape(adj, s.unsqueeze(0))
+  File "/home/ahmed/PatternRecognition/models/graph_model.py", line 447, in pump_lape
+    CT_num = _rank3_trace(torch.matmul(torch.matmul(s.transpose(1, 2),L), s)) # Tr(S^T A S) 
+RuntimeError: Expected size for first two dimensions of batch2 tensor to be: [1, 100] but got: [1, 98].
+Traceback (most recent call last):
+  File "/home/ahmed/PatternRecognition/run_graph_classification.py", line 130, in <module>
+    train_acc, validation_acc, test_acc = Experiment(args=args, dataset=dataset).run()
+  File "/home/ahmed/PatternRecognition/experiments/graph_classification.py", line 106, in run
+    out,extra_loss = self.model(graph)
+  File "/home/ahmed/anaconda3/envs/phd/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ahmed/anaconda3/envs/phd/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ahmed/PatternRecognition/models/graph_model.py", line 303, in forward
+    s, pump_loss, ortho_loss = pump_lape(adj, s.unsqueeze(0))
+  File "/home/ahmed/PatternRecognition/models/graph_model.py", line 447, in pump_lape
+    CT_num = _rank3_trace(torch.matmul(torch.matmul(s.transpose(1, 2),L), s)) # Tr(S^T A S) 
+RuntimeError: Expected size for first two dimensions of batch2 tensor to be: [1, 100] but got: [1, 98].
+Traceback (most recent call last):
+  File "/home/ahmed/PatternRecognition/run_graph_classification.py", line 130, in <module>
+    train_acc, validation_acc, test_acc = Experiment(args=args, dataset=dataset).run()
+  File "/home/ahmed/PatternRecognition/experiments/graph_classification.py", line 106, in run
+    out,extra_loss = self.model(graph)
+  File "/home/ahmed/anaconda3/envs/phd/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ahmed/anaconda3/envs/phd/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ahmed/PatternRecognition/models/graph_model.py", line 335, in forward
+    s, pump_loss, ortho_loss = pump_lape(adj, s.unsqueeze(0))
+  File "/home/ahmed/PatternRecognition/models/graph_model.py", line 447, in pump_lape
+    CT_num = _rank3_trace(torch.matmul(torch.matmul(s.transpose(1, 2),L), s)) # Tr(S^T A S) 
+RuntimeError: Expected size for first two dimensions of batch2 tensor to be: [1, 100] but got: [1, 98].
+Traceback (most recent call last):
+  File "/home/ahmed/PatternRecognition/run_graph_classification.py", line 145, in <module>
+    train_acc, validation_acc, test_acc = Experiment(args=args, dataset=dataset).run()
+  File "/home/ahmed/PatternRecognition/experiments/graph_classification.py", line 106, in run
+    out,extra_loss = self.model(graph)
+  File "/home/ahmed/anaconda3/envs/phd/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ahmed/anaconda3/envs/phd/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ahmed/PatternRecognition/models/graph_model.py", line 303, in forward
+    s, pump_loss, ortho_loss = pump_lape(adj, s.unsqueeze(0))
+  File "/home/ahmed/PatternRecognition/models/graph_model.py", line 447, in pump_lape
+    CT_num = _rank3_trace(torch.matmul(torch.matmul(s.transpose(1, 2),L), s)) # Tr(S^T A S) 
+RuntimeError: Expected size for first two dimensions of batch2 tensor to be: [1, 100] but got: [1, 98].
+Killed
+Killed
+Killed

@@ -1,0 +1,16 @@
+TRAINING STARTED...
+Trial 1/25
+USING POSITIONAL ENCODING:  RWPE
+USING POSITIONAL ENCODING:  RWPE
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=8, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=6)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=126, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  68943

@@ -1,0 +1,451 @@
+TRAINING STARTED...
+Trial 1/25
+USING POSITIONAL ENCODING:  eigen
+USING POSITIONAL ENCODING:  eigen
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=8, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=6)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=126, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  68943
+Epoch 1, Train acc: 0.17, Validation acc: 0.2 (new best validation), Test acc: 0.13333333333333333
+Epoch 2, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 3, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 4, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 5, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 6, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 7, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 8, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 9, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 10, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 11, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 12, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 13, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 14, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 15, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 16, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 17, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 18, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 19, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 20, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 21, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 22, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 23, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 24, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 25, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 26, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 27, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 28, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 29, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 30, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 31, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 32, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 33, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 34, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 35, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 36, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 37, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 38, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 39, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 40, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 41, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 42, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 43, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 44, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 45, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 46, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 47, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 48, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 49, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 50, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 51, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 52, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 53, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 54, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 55, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 56, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 57, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 58, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 59, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 60, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 61, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 62, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 63, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 64, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 65, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 66, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 67, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 68, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 69, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 70, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 71, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 72, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 73, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 74, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 75, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 76, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 77, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 78, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 79, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 80, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 81, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 82, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 83, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 84, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 85, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 86, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 87, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 88, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 89, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 90, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 91, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 92, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 93, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 94, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 95, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 96, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 97, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 98, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 99, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 100, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 101, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+Epoch 102, Train acc: 0.17, Validation acc: 0.2, Test acc: 0.13333333333333333
+100 epochs without improvement, stopping training
+Best train acc: 0.16666666666666666, Best validation acc: 0.2, Best test acc: 0.13333333333333333
+Trial 2/25
+USING POSITIONAL ENCODING:  eigen
+USING POSITIONAL ENCODING:  eigen
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=8, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=6)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=126, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  68943
+Epoch 1, Train acc: 0.17, Validation acc: 0.08 (new best validation), Test acc: 0.21666666666666667
+Epoch 2, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 3, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 4, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 5, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 6, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 7, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 8, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 9, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 10, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 11, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 12, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 13, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 14, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 15, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 16, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 17, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 18, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 19, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 20, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 21, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 22, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 23, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 24, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 25, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 26, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 27, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 28, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 29, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 30, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 31, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 32, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 33, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 34, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 35, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 36, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 37, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 38, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 39, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 40, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 41, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 42, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 43, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 44, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 45, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 46, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 47, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 48, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 49, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 50, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 51, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 52, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 53, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 54, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 55, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 56, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 57, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 58, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 59, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 60, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 61, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 62, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 63, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 64, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 65, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 66, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 67, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 68, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 69, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 70, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 71, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 72, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 73, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 74, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 75, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 76, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 77, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 78, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 79, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 80, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 81, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 82, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 83, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 84, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 85, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 86, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 87, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 88, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 89, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 90, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 91, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 92, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 93, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 94, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 95, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 96, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 97, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 98, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 99, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 100, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 101, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+Epoch 102, Train acc: 0.17, Validation acc: 0.08, Test acc: 0.21666666666666667
+100 epochs without improvement, stopping training
+Best train acc: 0.17083333333333334, Best validation acc: 0.08333333333333333, Best test acc: 0.21666666666666667
+Trial 3/25
+USING POSITIONAL ENCODING:  eigen
+USING POSITIONAL ENCODING:  eigen
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=8, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=6)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=126, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  68943
+Epoch 1, Train acc: 0.15, Validation acc: 0.2 (new best validation), Test acc: 0.23333333333333334
+Epoch 2, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 3, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 4, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 5, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 6, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 7, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 8, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 9, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 10, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 11, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 12, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 13, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 14, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 15, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 16, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 17, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 18, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 19, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 20, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 21, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 22, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 23, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 24, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 25, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 26, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 27, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 28, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 29, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 30, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 31, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 32, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 33, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 34, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 35, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 36, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 37, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 38, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 39, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 40, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 41, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 42, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 43, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 44, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 45, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 46, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 47, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 48, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 49, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 50, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 51, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 52, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 53, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 54, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 55, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 56, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 57, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 58, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 59, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 60, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 61, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 62, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 63, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 64, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 65, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 66, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 67, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 68, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 69, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 70, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 71, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 72, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 73, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 74, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 75, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 76, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 77, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 78, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 79, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 80, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 81, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 82, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 83, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 84, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 85, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 86, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 87, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 88, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 89, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 90, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 91, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 92, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 93, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 94, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 95, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 96, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 97, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 98, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 99, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 100, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 101, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+Epoch 102, Train acc: 0.15, Validation acc: 0.2, Test acc: 0.23333333333333334
+100 epochs without improvement, stopping training
+Best train acc: 0.15416666666666667, Best validation acc: 0.2, Best test acc: 0.23333333333333334
+Trial 4/25
+USING POSITIONAL ENCODING:  eigen
+USING POSITIONAL ENCODING:  eigen
+GNN(
+  (layers): ModuleList(
+    (0): GatedGCNLayer(in_channels=8, out_channels=64)
+    (1-3): 3 x GatedGCNLayer(in_channels=64, out_channels=64)
+    (4): GatedGCNLayer(in_channels=64, out_channels=6)
+  )
+  (dropout): Dropout(p=0, inplace=False)
+  (act_fn): ReLU()
+  (MLP): Linear(in_features=126, out_features=5, bias=True)
+  (MLP_Eigen): Linear(in_features=5, out_features=5, bias=True)
+)
+Number of parameters:  68943
+Epoch 1, Train acc: 0.17, Validation acc: 0.13 (new best validation), Test acc: 0.13333333333333333
+Epoch 2, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 3, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 4, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 5, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 6, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 7, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 8, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 9, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 10, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 11, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 12, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 13, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 14, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 15, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 16, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 17, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 18, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 19, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 20, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 21, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 22, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 23, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 24, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 25, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 26, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 27, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 28, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 29, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 30, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 31, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 32, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 33, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 34, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 35, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 36, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 37, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 38, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 39, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 40, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 41, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 42, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 43, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 44, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 45, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 46, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 47, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 48, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 49, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 50, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 51, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 52, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 53, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 54, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 55, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 56, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 57, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 58, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 59, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 60, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 61, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 62, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 63, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 64, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 65, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 66, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 67, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 68, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 69, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 70, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 71, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 72, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 73, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 74, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 75, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 76, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 77, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
+Epoch 78, Train acc: 0.17, Validation acc: 0.13, Test acc: 0.13333333333333333
